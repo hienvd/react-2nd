@@ -1,0 +1,23 @@
+{
+  "name": "react-2nd",
+  "version": "1.0.0",
+  "description": "My React example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hienvd/react-2nd.git"
+  },
+  "author": "Hien Vuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hienvd/react-2nd/issues"
+  },
+  "homepage": "https://github.com/hienvd/react-2nd#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
