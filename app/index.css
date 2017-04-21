@@ -10,6 +10,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -50,4 +55,45 @@ li {
 .avatar {
   width: 150px;
   border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  color: #e6e6e6;
+  background: orangered;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  width: 200px;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(white, orangered);
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
 }
