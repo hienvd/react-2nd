@@ -114,3 +114,16 @@ a {
   padding: 7px 0;
   margin: 10px auto;
 }
+
+.reset {
+  border: none;
+  background: transparent;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #d0021b;
+}
+
+.reset:hover{
+  cursor: pointer;
+}
