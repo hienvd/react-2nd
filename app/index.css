@@ -128,3 +128,8 @@ a {
 .reset:hover{
   cursor: pointer;
 }
+
+.about-info {
+  position: absolute;
+  top: 50%;
+}

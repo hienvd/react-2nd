@@ -10,6 +10,10 @@ class Home extends React.Component {
         <Link className='button' to='/battle'>
           Battle
         </Link>
+
+        <p className='about-info'>
+          Created by @hienvd with guide from this<a href='https://online.reacttraining.com'> React Fundamental online course</a>
+        </p>
       </div>
     )
   }
